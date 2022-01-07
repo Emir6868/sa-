@@ -1,0 +1,349 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right top, #68dfc9, #6cdbeb) ;
+}
+
+main {
+    box-shadow: 30px 0px 40px rgb(196, 196, 196), -30px 0px 40px rgb(196, 196, 196);
+    margin: auto;
+    max-width: 900px;
+}
+
+header {
+    height: 160px;
+    padding-top: 10px;
+    background:linear-gradient(to top bottom
+    , #68dfc9, #6cdbeb)  ;
+    
+    align-items: center;
+}
+.photos {
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+  
+h3{
+    color: black ;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: 30px;
+    width: 60%;
+    padding-left: 330px;
+}
+.photo {
+    margin-left: 10%;
+    border-radius: 10%;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    margin-top: 10%;
+    padding-bottom: 40%;
+}
+h1{
+    color: black;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: 20px;
+    width: 60%;
+    padding-top: 5px;
+    padding-left: 230px;
+    
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid white;
+    background: linear-gradient(to right top, #68dfc9, #6cdbeb) ;
+}
+button{
+
+    color: #6f6f6f;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: 15px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    
+
+}
+.on{
+   margin-top: 3px;
+    margin-left: 400px;
+    width: 60%;
+    padding-top: 10px;
+    
+}
+.info{
+    padding-left: 450px;
+    padding-bottom: 40px;
+   
+   
+
+}
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.main .content .card .left{
+   flex: 0 0 30%;
+   padding: 20px;
+   background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3) );
+   color:#003147;
+}
+.main .content .card .right img{
+    height:300px;
+    width: 400px;
+    margin-top: 5px;
+}
+h2{
+    padding-left: 30px;
+    color: #003147;
+
+
+}
+
+
+.image {
+    z-index: 10;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 2px;
+    background: url(bat.png) no-repeat;
+    padding-bottom: 500px;
+    
+
+
+  }
+  .jjj{
+      
+      width: 500px;
+      height: 150px;
+      background: linear-gradient( to right bottom,  rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3) );
+      padding: 3%;
+      margin-top: 2%;
+      margin-left: 2%;
+      overflow-y : scroll;
+      padding-bottom: 50px;
+      margin-bottom: 12%;
+      border-radius: 5%;
+
+
+}
+
+.titre{
+    padding-left: 15%;
+    font-size: 250%;
+    text-decoration: overline;
+}
+.iut{ padding-left: 45%;
+    font-size: 250%;
+    text-decoration: overline;
+    
+
+
+}
+
+.rt{
+
+    width: 500px;
+    height: 150px;
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3) );
+    padding: 3%;
+    margin-top: 1%;
+      margin-left: 30%;
+   
+    overflow-y : scroll;
+    border-radius: 5%;
+    
+
+
+}
+
+.bac {
+    margin-left: 70%;
+    
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+  
+.uni {
+    margin-left: 70%;
+    
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+
+
+footer{
+    background: linear-gradient( to right bottom,rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3));
+    flex-shrink: 0;
+    border-top: 1px solid white;
+    margin-top: 40px;
+    
+    
+    color: #fff;
+    padding: 30px 100px;;
+
+}
+
+.Contacte{
+    
+    margin-left: 30%;
+    font-size: 250%;
+    text-decoration: underline;
+    color: black;
+
+
+
+}
+
+.contact{ 
+    color: black;
+
+
+}
+
+
+.premier{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.premier .contenuee .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.premier .contenuee .cards .left{
+   flex: 0 0 30%;
+   padding: 20px;
+   background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3) );
+   color:#003147;
+}
+.premier .contenuee .cards .right img{
+    height:300px;
+    width: 400px;
+    margin-top: 5px;
+}
+
+
+.psg{
+      
+    width: 150px;
+    height: 150px;
+    background: linear-gradient( to right bottom,rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.3));
+    padding: 3%;
+    margin-top: 10%;
+    margin-left: 20%;
+    overflow-y : scroll;
+    padding-bottom: 50px;
+    margin-bottom: 12%;
+    border-style: outset;
+}
+
+
+.titre2{
+    padding-left: 10px;
+    color: #003147;
+    text-decoration: overline;
+    margin-top: 10%;
+
+
+}
+
+.imgp {
+    margin-left: 60%;
+    
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
+    
+.Pal{
+    
+    
+   
+    font-size: 300%;
+    text-decoration: overline;
+    width: 100%;
+    margin-right: 50%;
+    margin-left: 2%;
+
+}
+   
+.champ {
+    width: 130px;
+    height: 130px;
+}
+.coup {
+    width: 130px;
+    height: 130px;
+    float: left;
+    
+}
+.tro {
+    width: 130px;
+    height: 130px;
+    float: left;
+}
+.cp {
+    width: 130px;
+    height: 130px;
+    float: left;
+    
+}
+
+.cry{
+    
+    
+   
+    font-size: 300%;
+    text-decoration: overline;
+    width: 100%;
+    margin-right: 50%;
+    margin-left: 30%;
+
+}
+
+.cr1{
+    width: 500px;
+    height: 150px;
+    background: linear-gradient( to right bottom,  rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3) );
+    padding: 3%;
+    margin-top: 2%;
+    margin-left: 18%;
+    overflow-y : scroll;
+    padding-bottom: 50px;
+    margin-bottom: 12%;
+    
+    border-radius: 5%;
+}
+.bt {
+    margin-left: 50%;
+    
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+}
